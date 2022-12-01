@@ -12,6 +12,7 @@ import { IUser } from '../models/user.model';
 import UserItem from './UserItem';
 
 const SearchPage = () => {
+  // Using Redux just for fun :) It would be better to just use State instead
   const users = useAppSelector(selectUsers);
   const status = useAppSelector(selectUsersStatus);
   const error = useAppSelector(selectUsersError);

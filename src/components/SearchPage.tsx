@@ -51,7 +51,7 @@ const SearchPage = () => {
           {status === 'loading' && <div className="spinner-border"></div>}
           {status === 'failed' && error && <div><h2>Ouch! Error!</h2><p>{error}</p></div>}
           {status === 'idle' && !users?.length && <h4>Users not found. Sorry :( </h4> }
-          {status === 'idle' && users?.length &&
+          {status === 'idle' && !!users?.length &&
             <ul className="list-group p-0">
               {users.map((user, index) => 
                 <UserItem 

@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="card m-2"
+>
+  <div
+    className="list-group bg-primary"
+  >
+    <a
+      className="list-group-item list-group-item-action text-break false"
+      data-testid="item-0"
+      href="idefinatelyshouldmockthisdata:)"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <div
+        className="d-flex align-items-center justify-content-between text-start"
+      >
+        <div
+          className="align-items-start pe-2"
+        >
+          <h5>
+            somelogin
+          </h5>
+          <p>
+            some desc
+          </p>
+        </div>
+        <div
+          className="d-flex"
+        >
+          <i
+            className="bi bi-star-fill me-1"
+          />
+          <span
+            className="unbrake"
+          >
+            434
+          </span>
+        </div>
+      </div>
+    </a>
+    ;
+  </div>
+</div>
+`;
